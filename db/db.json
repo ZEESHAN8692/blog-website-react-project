@@ -8,6 +8,19 @@
         "start":5,
         "comment":"best Blog"
         }
+    ],
+    "slider":[
+        {
+            "id":"sds1",
+            "image":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/08/10-Types-Of-Earrings-To-Add-To-Your-Jewellery-Box-Banner.jpg"
+        },
+        {
+            "id":"sds3",
+            "image":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-banner-image.jpg"
+        },{
+            "id":"sds2",
+            "image":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/10/dress-like-taylor-banner.jpg"
+        }
     ]
     
 }
