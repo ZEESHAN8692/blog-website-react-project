@@ -1,60 +1,74 @@
 {
-    "blog":[
-        {  
-            "id":"hh1",
-            "title":"6 Times Deepika Padukone Blew Our Minds With Her Saree Looks",
-            "description":"Deepika Padukone has always been a style maven. Her elegance and grace extend to every outfit of hers. When it comes to sarees, she takes it to another level. We have put together all those times when Deepika has blown our minds with her saree ensembles. This is your inspo for the upcoming wedding season and every saree look you are going to attempt here onwards.",
-            "heading1":"The Classic Black and White",
-            "heading2":"The Pearly White Fantasy",
-            "description1":"If you are a basics kinda gal looking for a saree for the next festive occasion, look no further than this simple yet elegant black and white saree. Deepika Padukone seems to be loving halter neck blouses with her sarees, and we don’t seem to be loving it less either. She donned a white saree with a thin black sequin border and a plain white halter neck backless blouse with dainty tie-up details on the back. For earrings, she wore big square emerald stones with diamonds around it. She went bold with kajal for her eyes and a sleek bun to complete the look. This ensemble is fairly achievable for you and can be sported on various occasions – daytime weddings, receptions, and formal events.",
-            "description2":"Deepika Padukone donned a custom Abu Jani Sandeep Khosla ensemble at Cannes and we just couldn’t get enough! It was an ivory chiffon saree with organza ruffles all along the border. For the blouse, she wore a silver embellished strapless blouse. However, the star element of the look was the Victorian-inspired collar made of pearls. She completed her look with heavily studded earrings and minimalistic makeup and her hair tied in a bun added to the elegance of the attire. You can achieve a look similar to this by pairing your ruffle sarees with an embellished cape or some surface-textured jewellery.",
-
-            "mainImage":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/08/10-Types-Of-Earrings-To-Add-To-Your-Jewellery-Box-Banner.jpg",
-            "lattestImage":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
-            "otherImage":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-3.jpg",
-            "otherImage2":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-1.jpg",
-            "otherImage3":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
-            "date": "19/05/2000"
-            
-        },
-        {  
-            "id":"hh1",
-            "title":"6 Times Deepika Padukone Blew Our Minds With Her Saree Looks",
-            "description":"Deepika Padukone has always been a style maven. Her elegance and grace extend to every outfit of hers. When it comes to sarees, she takes it to another level. We have put together all those times when Deepika has blown our minds with her saree ensembles. This is your inspo for the upcoming wedding season and every saree look you are going to attempt here onwards.",
-            "heading1":"The Classic Black and White",
-            "heading2":"The Pearly White Fantasy",
-            "description1":"If you are a basics kinda gal looking for a saree for the next festive occasion, look no further than this simple yet elegant black and white saree. Deepika Padukone seems to be loving halter neck blouses with her sarees, and we don’t seem to be loving it less either. She donned a white saree with a thin black sequin border and a plain white halter neck backless blouse with dainty tie-up details on the back. For earrings, she wore big square emerald stones with diamonds around it. She went bold with kajal for her eyes and a sleek bun to complete the look. This ensemble is fairly achievable for you and can be sported on various occasions – daytime weddings, receptions, and formal events.",
-            "description2":"Deepika Padukone donned a custom Abu Jani Sandeep Khosla ensemble at Cannes and we just couldn’t get enough! It was an ivory chiffon saree with organza ruffles all along the border. For the blouse, she wore a silver embellished strapless blouse. However, the star element of the look was the Victorian-inspired collar made of pearls. She completed her look with heavily studded earrings and minimalistic makeup and her hair tied in a bun added to the elegance of the attire. You can achieve a look similar to this by pairing your ruffle sarees with an embellished cape or some surface-textured jewellery.",
-
-            "mainImage":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/08/10-Types-Of-Earrings-To-Add-To-Your-Jewellery-Box-Banner.jpg",
-            "lattestImage":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
-            "otherImage":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-3.jpg",
-            "otherImage2":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-1.jpg",
-            "otherImage3":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
-            "date": "19/05/2000"
-            
-        }
-
-    ],
-    "review":[
-        {
-        "id":"abc1",
-        "start":5,
-        "comment":"best Blog"
-        }
-    ],
-    "slider":[
-        {
-            "id":"sds1",
-            "image":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/08/10-Types-Of-Earrings-To-Add-To-Your-Jewellery-Box-Banner.jpg"
-        },
-        {
-            "id":"sds3",
-            "image":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-banner-image.jpg"
-        },{
-            "id":"sds2",
-            "image":"https://www.nykaafashion.com/style-files/wp-content/uploads/2023/10/dress-like-taylor-banner.jpg"
-        }
-    ]
-    
+  "blog": [
+    {
+      "id": "hh1",
+      "title": "6 Times Deepika Padukone Blew Our Minds With Her Saree Looks",
+      "description": "Deepika Padukone has always been a style maven. Her elegance and grace extend to every outfit of hers. When it comes to sarees, she takes it to another level. We have put together all those times when Deepika has blown our minds with her saree ensembles. This is your inspo for the upcoming wedding season and every saree look you are going to attempt here onwards.",
+      "heading1": "The Classic Black and White",
+      "heading2": "The Pearly White Fantasy",
+      "description1": "If you are a basics kinda gal looking for a saree for the next festive occasion, look no further than this simple yet elegant black and white saree. Deepika Padukone seems to be loving halter neck blouses with her sarees, and we don’t seem to be loving it less either. She donned a white saree with a thin black sequin border and a plain white halter neck backless blouse with dainty tie-up details on the back. For earrings, she wore big square emerald stones with diamonds around it. She went bold with kajal for her eyes and a sleek bun to complete the look. This ensemble is fairly achievable for you and can be sported on various occasions – daytime weddings, receptions, and formal events.",
+      "description2": "Deepika Padukone donned a custom Abu Jani Sandeep Khosla ensemble at Cannes and we just couldn’t get enough! It was an ivory chiffon saree with organza ruffles all along the border. For the blouse, she wore a silver embellished strapless blouse. However, the star element of the look was the Victorian-inspired collar made of pearls. She completed her look with heavily studded earrings and minimalistic makeup and her hair tied in a bun added to the elegance of the attire. You can achieve a look similar to this by pairing your ruffle sarees with an embellished cape or some surface-textured jewellery.",
+      "mainImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/08/10-Types-Of-Earrings-To-Add-To-Your-Jewellery-Box-Banner.jpg",
+      "lattestImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
+      "otherImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-3.jpg",
+      "otherImage2": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-1.jpg",
+      "otherImage3": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
+      "date": "19/05/2000"
+    },
+    {
+      "id": "hh2",
+      "title": "6 Times Deepika Padukone Blew Our Minds With Her Saree Looks",
+      "description": "Deepika Padukone has always been a style maven. Her elegance and grace extend to every outfit of hers. When it comes to sarees, she takes it to another level. We have put together all those times when Deepika has blown our minds with her saree ensembles. This is your inspo for the upcoming wedding season and every saree look you are going to attempt here onwards.",
+      "heading1": "The Classic Black and White",
+      "heading2": "The Pearly White Fantasy",
+      "description1": "If you are a basics kinda gal looking for a saree for the next festive occasion, look no further than this simple yet elegant black and white saree. Deepika Padukone seems to be loving halter neck blouses with her sarees, and we don’t seem to be loving it less either. She donned a white saree with a thin black sequin border and a plain white halter neck backless blouse with dainty tie-up details on the back. For earrings, she wore big square emerald stones with diamonds around it. She went bold with kajal for her eyes and a sleek bun to complete the look. This ensemble is fairly achievable for you and can be sported on various occasions – daytime weddings, receptions, and formal events.",
+      "description2": "Deepika Padukone donned a custom Abu Jani Sandeep Khosla ensemble at Cannes and we just couldn’t get enough! It was an ivory chiffon saree with organza ruffles all along the border. For the blouse, she wore a silver embellished strapless blouse. However, the star element of the look was the Victorian-inspired collar made of pearls. She completed her look with heavily studded earrings and minimalistic makeup and her hair tied in a bun added to the elegance of the attire. You can achieve a look similar to this by pairing your ruffle sarees with an embellished cape or some surface-textured jewellery.",
+      "mainImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/08/10-Types-Of-Earrings-To-Add-To-Your-Jewellery-Box-Banner.jpg",
+      "lattestImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
+      "otherImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-3.jpg",
+      "otherImage2": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-1.jpg",
+      "otherImage3": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
+      "date": "19/05/2000"
+    },
+    {
+      "id": "hh2",
+      "title": "6 Times Deepika Padukone Blew Our Minds With Her Saree Looks",
+      "description": "Deepika Padukone has always been a style maven. Her elegance and grace extend to every outfit of hers. When it comes to sarees, she takes it to another level. We have put together all those times when Deepika has blown our minds with her saree ensembles. This is your inspo for the upcoming wedding season and every saree look you are going to attempt here onwards.",
+      "heading1": "The Classic Black and White",
+      "heading2": "The Pearly White Fantasy",
+      "description1": "If you are a basics kinda gal looking for a saree for the next festive occasion, look no further than this simple yet elegant black and white saree. Deepika Padukone seems to be loving halter neck blouses with her sarees, and we don’t seem to be loving it less either. She donned a white saree with a thin black sequin border and a plain white halter neck backless blouse with dainty tie-up details on the back. For earrings, she wore big square emerald stones with diamonds around it. She went bold with kajal for her eyes and a sleek bun to complete the look. This ensemble is fairly achievable for you and can be sported on various occasions – daytime weddings, receptions, and formal events.",
+      "description2": "Deepika Padukone donned a custom Abu Jani Sandeep Khosla ensemble at Cannes and we just couldn’t get enough! It was an ivory chiffon saree with organza ruffles all along the border. For the blouse, she wore a silver embellished strapless blouse. However, the star element of the look was the Victorian-inspired collar made of pearls. She completed her look with heavily studded earrings and minimalistic makeup and her hair tied in a bun added to the elegance of the attire. You can achieve a look similar to this by pairing your ruffle sarees with an embellished cape or some surface-textured jewellery.",
+      "mainImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/08/10-Types-Of-Earrings-To-Add-To-Your-Jewellery-Box-Banner.jpg",
+      "lattestImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
+      "otherImage": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-3.jpg",
+      "otherImage2": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-1.jpg",
+      "otherImage3": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-4.jpg",
+      "date": "19/05/2000"
+    }
+  ],
+  "review": [
+    {
+      "id": "abc1",
+      "start": 5,
+      "comment": "best Blog"
+    }
+  ],
+  "slider": [
+    {
+      "id": "sds1",
+      "image": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/08/10-Types-Of-Earrings-To-Add-To-Your-Jewellery-Box-Banner.jpg"
+    },
+    {
+      "id": "sds3",
+      "image": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/09/saree-looks-banner-image.jpg"
+    },
+    {
+      "id": "sds2",
+      "image": "https://www.nykaafashion.com/style-files/wp-content/uploads/2023/10/dress-like-taylor-banner.jpg"
+    },
+    {
+      "id": "6e83",
+      "image": "https://www.nykaafashion.com/style-files/wp-content/uploads/2025/01/engam-look-banner.jpg"
+    }
+  ]
 }

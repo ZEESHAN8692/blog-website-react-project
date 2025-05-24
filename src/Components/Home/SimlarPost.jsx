@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import base_url from "../../Api/Base_Url";
-import { blog_end } from "../../Api/End_Point";
+import base_url from "../../../Api/Base_Url";
+import { blog_end } from "../../../Api/End_Point";
 
 const SimlarPost = () => {
   const [data, setData] = useState([]);
@@ -21,7 +21,7 @@ const SimlarPost = () => {
   }, [setData]);
   return (
     <>
-      <h4 className="text-center pt-2  ">Similar Post</h4>
+      <h4 className="text-center pt-2">Similar Post</h4>
       <hr />
       <div className="shadow-sm mb-3 " style={{ maxWidth: 540 }}>
         {data?.map((blog) => {

@@ -5,6 +5,7 @@ import { blog_end } from "../../Api/End_Point";
 import axios from "axios";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import SimlarPost from "../Components/Home/SimlarPost";
+import SimilarPostDiv from "../Components/Home/similarPostDiv";
 
 const SinglePost = () => {
   const { id } = useParams();
@@ -80,6 +81,7 @@ const SinglePost = () => {
           </Col>
           <Col sm={4} className="border">
             <SimlarPost />
+            <SimilarPostDiv />
           </Col>
         </Row>
       </Container>

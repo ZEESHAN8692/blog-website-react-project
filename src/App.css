@@ -1,0 +1,29 @@
+footer {
+  background-color: #fc72bb;
+  color: white;
+  margin-top: 20px;
+}
+.custom-nav-link {
+  font-weight: 900 !important;
+  color: #fa0089 !important;
+  font-size: 20px !important;
+}
+.custom-nav-link:hover {
+  background-color: #fa0089;
+  font-weight: bold;
+  color: white !important;
+}
+
+.customBtn {
+  background-color: #fa0089 !important;
+  color: white !important;
+}
+.customBtn:hover {
+  background-color: white !important;
+  color: #fa0089 !important;
+  border: 1px solid #fa0089 !important;
+}
+
+.customInput {
+  border: 1px solid #fa0089 !important;
+}
