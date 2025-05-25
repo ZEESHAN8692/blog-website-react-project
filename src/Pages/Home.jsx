@@ -9,6 +9,7 @@ import FullPagePost from "../Components/Home/FullPagePost";
 import axios from "axios";
 import base_url from "../../Api/Base_Url";
 import { blog_end } from "../../Api/End_Point";
+import LatestPostDiv from "../Components/Home/LatestPostDiv";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -17,8 +18,8 @@ const Home = () => {
     axios
       .get(apiUrl)
       .then((res) => {
-        setData(res.data);
-        console.log(res.data);
+        const reverseData = res.data.reverse();
+        setData(reverseData);
       })
       .catch((err) => console.log(err));
   };
@@ -62,6 +63,7 @@ const Home = () => {
 
           <Col sm={4} className="border">
             <LatestPost />
+            <LatestPostDiv />
           </Col>
         </Row>
       </Container>

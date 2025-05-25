@@ -1,25 +1,30 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import base_url from "../../../Api/Base_Url";
 import { blog_end } from "../../../Api/End_Point";
 import { Col, Container, Row } from "react-bootstrap";
 
 const SimilarPostDiv = () => {
+  const { id } = useParams();
   const [data, setData] = useState([]);
   const apiUrl = base_url + blog_end;
   const getBlogData = () => {
     axios
       .get(apiUrl)
       .then((res) => {
-        setData(res.data);
-        console.log(res.data);
+        const filterData = res.data
+          .filter((post) => post.id !== id)
+          .slice(0, 4)
+          .reverse();
+
+        setData(filterData);
       })
       .catch((err) => console.log(err));
   };
   useEffect(() => {
     getBlogData();
-  }, [setData]);
+  }, [setData, id]);
   return (
     <>
       <Container>

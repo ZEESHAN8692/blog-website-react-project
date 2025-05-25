@@ -19,7 +19,7 @@ const SinglePost = () => {
   };
   useEffect(() => {
     getData();
-  }, [setData]);
+  }, [setData, id]);
 
   return (
     <>
@@ -77,6 +77,11 @@ const SinglePost = () => {
             <br />
             <div className="d-flex justify-content-center">
               <Image src={data.otherImage2} rounded />
+            </div>
+            <br />
+            <br />
+            <div className="d-flex justify-content-center">
+              <Image src={data.otherImage3} rounded />
             </div>
           </Col>
           <Col sm={4} className="border">

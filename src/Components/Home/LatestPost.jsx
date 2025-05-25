@@ -11,8 +11,17 @@ const LatestPost = () => {
     axios
       .get(apiUrl)
       .then((res) => {
-        setData(res.data);
-        console.log(res.data);
+        const today = new Date();
+
+        const fiveDaysAgo = new Date(today);
+        fiveDaysAgo.setDate(today.getDate() - 5);
+
+        const filteredData = res.data.filter((blog) => {
+          const postDate = new Date(blog.date);
+          return postDate >= fiveDaysAgo;
+        });
+
+        setData(filteredData.slice(0, 5));
       })
       .catch((err) => console.log(err));
   };

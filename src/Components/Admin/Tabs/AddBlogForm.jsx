@@ -1,15 +1,41 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
+import base_url from "../../../../Api/Base_Url";
+import { blog_end } from "../../../../Api/End_Point";
+import { useNavigate } from "react-router-dom";
 const AddBlogForm = () => {
-  const [data, setData] = useState({});
-  //   const [input, setInput] = useState("");
+  const apiUrl = base_url + blog_end;
+  const navigater = useNavigate();
+
+  const [input, setInput] = useState({
+    title: "",
+    description: "",
+    heading1: "",
+    description1: "",
+    heading2: "",
+    description2: "",
+    mainImage: "",
+    lattestImage: "",
+    otherImage: "",
+    otherImage2: "",
+    otherImage3: "",
+  });
 
   const handleChange = (e) => {
-    console.log(e.target.value);
+    const { name, value } = e.target;
+    setInput({ ...input, [name]: value });
   };
 
   const handleSub = (e) => {
     e.preventDefault();
+    axios
+      .post(apiUrl, input)
+      .then(() => {
+        alert("Submit Form Successfuly ");
+        navigater("/");
+      })
+      .catch((err) => console.log(err));
   };
   return (
     <>
@@ -112,7 +138,12 @@ const AddBlogForm = () => {
 
         <Form.Group className="mb-3">
           <Form.Label>Date</Form.Label>
-          <Form.Control name="date" onChange={handleChange} required />
+          <Form.Control
+            type="date"
+            name="date"
+            onChange={handleChange}
+            required
+          />
         </Form.Group>
 
         <Button type="submit" variant="primary">

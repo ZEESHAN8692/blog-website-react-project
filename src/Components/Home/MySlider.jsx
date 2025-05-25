@@ -26,7 +26,7 @@ const MySlider = () => {
       <Container>
         <Carousel data-bs-theme="dark">
           {mySlider?.map((slide) => (
-            <Carousel.Item>
+            <Carousel.Item key={slide.id}>
               <img className="d-block w-100" src={slide.image} />
             </Carousel.Item>
           ))}

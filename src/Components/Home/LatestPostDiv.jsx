@@ -1,32 +1,40 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import base_url from "../../../Api/Base_Url";
 import { blog_end } from "../../../Api/End_Point";
-import axios from "axios";
+import { Col, Container, Row } from "react-bootstrap";
 
-const FullPagePost = () => {
+const LatestPostDiv = () => {
+  const { id } = useParams();
   const [data, setData] = useState([]);
   const apiUrl = base_url + blog_end;
   const getBlogData = () => {
     axios
       .get(apiUrl)
       .then((res) => {
-        const reverseData = res.data;
-        const onlyNineData = reverseData.slice(0, 9);
-        setData(onlyNineData);
+        const today = new Date();
+        const fiveDaysAgo = new Date(today);
+        fiveDaysAgo.setDate(today.getDate() - 4);
+
+        const filteredData = res.data.filter((blog) => {
+          const postDate = new Date(blog.date);
+          return postDate >= fiveDaysAgo;
+        });
+
+        setData(filteredData.reverse().slice(0, 3));
       })
       .catch((err) => console.log(err));
   };
   useEffect(() => {
     getBlogData();
-  }, [setData]);
+  }, [setData, id]);
   return (
     <>
       <Container>
         <Row>
-          <Col className="border pt-2">
-            <div className="row gap-3 flex-wrap">
+          <Col className=" pt-2">
+            <div className="row gap-2 flex-wrap">
               {data?.map((blog) => {
                 let { id, title, description, mainImage, date } = blog;
 
@@ -63,4 +71,4 @@ const FullPagePost = () => {
   );
 };
 
-export default FullPagePost;
+export default LatestPostDiv;
