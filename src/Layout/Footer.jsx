@@ -22,22 +22,17 @@ const Footer = () => {
               <ul className="list-unstyled mb-0 ">
                 <li>
                   <a href="#!" className="text-white">
-                    Lorem, ipsum dolor.
+                    About Us
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Lorem, ipsum dolor.
+                    Contact Us
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Lorem, ipsum dolor.
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Lorem, ipsum dolor.
+                    Home
                   </a>
                 </li>
               </ul>
@@ -48,22 +43,17 @@ const Footer = () => {
               <ul className="list-unstyled">
                 <li>
                   <a href="#!" className="text-white">
-                    Lorem, ipsum dolor.
+                    Privacy Policy
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Lorem, ipsum dolor.
+                    Terms & Conditions
                   </a>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                    Lorem, ipsum dolor.
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Lorem, ipsum dolor.
+                    Sitemap
                   </a>
                 </li>
               </ul>

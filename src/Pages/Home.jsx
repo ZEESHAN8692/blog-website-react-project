@@ -10,15 +10,18 @@ import axios from "axios";
 import base_url from "../../Api/Base_Url";
 import { blog_end } from "../../Api/End_Point";
 import LatestPostDiv from "../Components/Home/LatestPostDiv";
+import Form from "react-bootstrap/Form";
 
 const Home = () => {
   const [data, setData] = useState([]);
+  const [search, setSearch] = useState("");
   const apiUrl = base_url + blog_end;
   const getBlogData = () => {
     axios
       .get(apiUrl)
       .then((res) => {
         const reverseData = res.data.reverse();
+
         setData(reverseData);
       })
       .catch((err) => console.log(err));
@@ -26,16 +29,39 @@ const Home = () => {
   useEffect(() => {
     getBlogData();
   }, [setData]);
+  const handleSearch = (e) => {
+    setSearch(e.target.value);
+  };
+
+  const filteredBlogs = data.filter((blog) => {
+    return (
+      blog.title.toLowerCase().includes(search.toLowerCase()) ||
+      blog.description.toLowerCase().includes(search.toLowerCase())
+    );
+  });
   return (
     <>
       <MySlider />
       <br />
+      <div className="d-flex justify-content-center">
+        <Form className="d-flex" style={{ width: "400px" }}>
+          <Form.Control
+            type="search"
+            placeholder="Search"
+            className="me-2 customInput"
+            aria-label="Search Blog"
+            name="blog"
+            onChange={handleSearch}
+          />
+        </Form>
+      </div>
+
       <br />
       <Container>
         <Row>
           <Col sm={8} className="border pt-2">
             <div className="row gap-3">
-              {data?.map((blog) => {
+              {filteredBlogs?.map((blog) => {
                 let { id, title, description, mainImage, date } = blog;
                 return (
                   <div

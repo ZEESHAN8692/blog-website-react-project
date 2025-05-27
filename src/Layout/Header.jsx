@@ -37,17 +37,6 @@ const Header = () => {
                   Admin
                 </Nav.Link>
               </Nav>
-              <Form className="d-flex">
-                <Form.Control
-                  type="search"
-                  placeholder="Search"
-                  className="me-2 customInput"
-                  aria-label="Search"
-                />
-                <Button variant="" className="customBtn">
-                  Search
-                </Button>
-              </Form>
             </Navbar.Collapse>
           </Container>
         </Navbar>
